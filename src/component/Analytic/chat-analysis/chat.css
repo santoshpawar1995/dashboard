@@ -1,0 +1,6 @@
+.chatcontain{
+    height: 85vh;
+    width: 100%;
+    margin-left: 10px;
+   display: flex;
+}

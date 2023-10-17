@@ -1,0 +1,14 @@
+.business-contain{
+/* height: 110vh;
+width: 100%;
+background-color: red; */
+width: 100%;
+/* height: 100vh; */
+
+
+}
+.ussagerow{
+    display: flex;
+    justify-content: space-around;
+
+}

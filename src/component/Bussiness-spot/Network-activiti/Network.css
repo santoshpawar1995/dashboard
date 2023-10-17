@@ -1,0 +1,14 @@
+.networkcontainer{
+    /* display: flex; */
+    height:47vh;
+    width: 100%;
+    background-color: rgb(250, 246, 246);
+    margin-top: 5px;
+    justify-content: center;
+  
+}
+.chatnetror{
+    display: flex;
+    margin-left: 20px;
+   justify-content: space-around;
+}

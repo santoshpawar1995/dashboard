@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins";
+  display: flex;
+}
+
+.App-header {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.App-shadow {
+  background-color: #242424;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  background: #242424;
+  box-shadow: 0px 4px 50px 0px rgba(255, 255, 255, 0.25);
+}
+.logo-image {
+  width: 130px;
+}
+.input-flied {
+  border-radius: 15px;
+  background: #343434;
+  padding: 15px 150px 15px 15px;
+  border: 1px;
+  font-family: "Poppins";
+  font-size: 20px;
+  outline: none;
+}
+.input {
+  border-radius: 15px;
+  background: #343434;
+  padding: 15px 150px 15px 15px;
+  border: 1px;
+  font-family: "Poppins";
+  font-size: 20px;
+  outline: none;
+}
+.input:active {
+  background: white;
+}
+.form {
+  margin: 20px;
+}
+.loginbutton {
+  padding: 12px 45px 12px 45px;
+  font-family: "Poppins";
+  font-size: 20px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #0069ff 0%, #0057d2 100%);
+  border: 1px;
+  margin: 50px;
+  color: white;
+  cursor: pointer;
+}
+.loginbutton:hover {
+  box-shadow: 0px 1px 20px 0px #006affa5;
+}
+
+.liftsidecol {
+  border-radius: 0px 50px 50px 0px;
+  background: linear-gradient(93deg, #dceafe 2.62%, #fff 97.56%);
+  box-shadow: 0px 4px 50px 0px rgba(255, 255, 255, 0.25);
+}
+.leftside-image {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.container-login{
+  width: 400px;
+  margin: auto;
+
+}
+

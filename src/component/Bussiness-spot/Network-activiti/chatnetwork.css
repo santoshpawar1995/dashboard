@@ -1,0 +1,7 @@
+.chatncontainer{
+    display: flex;
+    height: 230px;
+    width: 65%;
+    align-items: center;
+
+}
