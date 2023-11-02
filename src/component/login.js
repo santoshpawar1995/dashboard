@@ -28,7 +28,7 @@ function Login() {
       return seterrorMessage("please enter the vaild email id");
     console.log(input.password);
     if (!passwordValidator(input.password))
-      return seterrorMessage("please ender the  valid passsword ");
+      return seterrorMessage("please enter the  valid passsword ");
     if (
       input.email !== "geethamsoft@gmail.com" ||
       input.password !== "geethamsoft@123"

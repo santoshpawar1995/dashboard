@@ -1,0 +1,139 @@
+.userinfo{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.input-container{
+    height: 150vh;
+    width: 98%;
+    box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 15px;
+    margin-left: 12px;
+ }
+ .flex-input{
+    display: flex;
+    margin-left:15px ;
+ }
+ .columnrow{
+    
+ }
+.flex{
+    height:44vh;
+    width: 100%;
+
+    /* justify-content:space-between; */
+    /* border: 1px solid red; */
+}
+.form1{
+    width:50%;
+    /* border: 1px solid black; */
+    /* height: 70vh; */
+    /* background-color: red; */
+    
+}
+.form2{
+    width:50%;
+    /* border: 1px solid black; */
+    /* height: 70vh; */
+    /* background-color: blue;  */
+}
+.form3{
+    margin-top: 115px;
+    height: 37vh;
+    width: 50%;
+    /* background-color: blue; */
+    /* justify-content: center; */
+    /* display: flex; */
+    margin-left: 250px;
+    /* border: 1px solid black; */
+   
+}
+.buttons{
+   margin-top: 100px; 
+}
+.submit{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-top: 9px;
+    color:white;
+}
+.cancel{
+    font-size: 15px;
+    padding: 10px;
+    background-color:#6c757d;
+    border-radius: 5px;
+    margin-top: 9x; 
+    margin-left: 40px;
+    color: white;
+}
+.form-container{
+   
+  }
+  .inputfield1{
+    border:1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    width: 209px;
+    font-size: 12px;
+    padding-left: 10px;
+   
+  }
+  .inputfield2{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    width: 219px;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-left: 40px;
+  }
+  .inputfield3{
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+    width: 95%;
+    
+  }
+  .inputtext1{
+    border: 1px solid rgb(200, 198, 198);
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px; */
+    border-radius: 5px;
+    
+    width: 40%;
+    font-size:10px;
+    font-weight: lighter;
+   
+  }
+  .inputtext2{
+    border: 1px solid rgb(200, 198, 198);
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px; */
+    border-radius: 5px;
+   
+    width: 40%;
+  
+    font-size:10px;
+    font-weight: lighter;
+  
+  } 
+  .inputtext3{ 
+    border: 1px solid rgb(200, 198, 198);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px; */
+    border-radius: 5px;
+    width: 94%;
+  
+    padding-left: 10px;
+    font-size:10px;
+    font-weight: lighter;
+   
+  }
+  .error{
+    font-size:10px;
+    color: rgb(253, 96, 96);
+    margin-right: 300px;
+  }
+  .error1{
+    font-size:10px;
+    color: rgb(253, 96, 96);
+    margin-right: 50px;
+  }

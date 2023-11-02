@@ -1,7 +1,66 @@
+// import React, {useEffect, useState} from 'react'
+import './tablle.css'
+// import { useLocation } from 'react-router-dom';
+// import  { useNavigate } from 'react-router-dom';
+
+// function Tablle(){
+//   const location = useLocation()
+//   const [state, setLocationState] = useState({})
+
+//   //location state
+//   useEffect (()=>{
+//     let state = location.state
+//     setLocationState(state)
+//   },[location.state])
+
+//   const navigate = useNavigate();
+//   const handleRowClick = () => {
+//   navigate('/userinfo');
+//    }
+//   return (
+//     <div className='table-container'>
+//       <table>
+//         <thead>
+//             <tr>
+//                 <th>firstname</th>
+//                 <th>lastname</th>
+//                 <th>username</th>
+//                 <th>phonenumber</th>
+//                 <th>password</th>
+//                 <th>joiningdate</th>
+//                 <th>blood</th>
+//                 <th>department</th>
+//             </tr>
+//         </thead>
+//   {/*- mapping table body to display form data using the map method */}
+//         <tbody>
+//         {state && (
+//             <tr onClick={handleRowClick}>
+//                 <td>{state.firstname}</td>
+//                 <td>{state.lastname}</td>
+//                 <td>{state.username}</td>
+//                 <td>{state.phonenumber}</td>
+//                 <td>{state.password}</td>
+//                 <td>{state.joiningdate}</td>
+//                 <td>{state.blood}</td>
+//                 <td>{state.department}</td>
+              
+//             </tr>
+            
+//               )
+//               }
+//                </tbody>
+
+//       </table>
+//     </div>
+//   )
+// }
+
+// export default Tablle
 import React, { useState,useEffect } from 'react'
 import  { Link,useNavigate} from 'react-router-dom';
 
-export default function Cruddata() {
+export default function Tablle() {
      const [empdata,empchange] = useState(null);
      const navigation = useNavigate();
      const loadcontent = (id)=>{
@@ -33,16 +92,16 @@ export default function Cruddata() {
    
     },[])
   return (
-    <div>
-      <div className='row'>
+   
+     
         <div className='container'>
-            <div className='card'>
+            <div className='tablecard' >
                 <div className='card-title'>
                     <h2>table data</h2>
                 </div>
                 
                 <div className='card-body'>
-                <Link to="/empadd" className='btn btn-success mb-3'>Add New</Link>
+                <Link to="/empadd" className='btn btn-warning mb-3'>Add New</Link>
                 <table className='table table-bordered'>
                     <thead className='bg-primary
                      text-white'>
@@ -73,8 +132,8 @@ export default function Cruddata() {
                 </div>
             </div>
         </div>
-      </div>
-    </div>
+    
+   
   )
 }
 

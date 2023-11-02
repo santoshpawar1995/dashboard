@@ -1,7 +1,7 @@
 .slide-nav-container {
   background-color: #dceafe;
   width: 300px;
-  /* height: 100vh; */
+  height: 100vh;
   position: relative;
   color: black;
   transition: 0.4s;
